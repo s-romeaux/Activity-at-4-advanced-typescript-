@@ -8,6 +8,8 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^8.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -31,17 +33,26 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "app.js",
+  "description": "A server and React project for MP2 WordSearch.",
+  "main": "server/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s-romeaux/MP2-WordSearch.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "JSZ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/s-romeaux/MP2-WordSearch/issues"
   },
-  "homepage": "https://github.com/s-romeaux/MP2-WordSearch#readme"
+  "homepage": "https://github.com/s-romeaux/MP2-WordSearch#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.26",
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.21",
+    "typescript": "^5.4.2"
+  }
 }
